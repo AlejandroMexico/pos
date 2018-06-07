@@ -1,0 +1,286 @@
+--------------------------------------------------------------
+English POS ChangeLog
+--------------------------------------------------------------
+***** ChangeLog for 5.0.1 compared to 5.0.0 *****
+Fix: Warning on stock movement
+Fix: Error with PHP 7.1
+Fix: Bug when company haven't got state
+
+***** ChangeLog for 5.0 compared to 4.0.3 *****
+New: Compatibility with module 2Series
+New: Asf confirmation when amount paid is lesser than total
+New: Added list with vat sales made on DoliPOS
+
+***** ChangeLog for 4.0.5 compared to 4.0.4 *****
+Fix: Bug when using discount
+Fix: Bug when updating draft sell
+
+***** ChangeLog for 4.0.4 compared to 4.0.3 *****
+Fix: Error compatibilidad multicompany
+Fix: Bug on ticket list
+
+***** ChangeLog for 4.0.3 compared to 4.0.2 *****
+Fix: Set paid a invoice when remain to pay is zero
+Fix: When product stock is zero
+
+***** ChangeLog for 4.0.2 compared to 4.0.1 *****
+Fix: Corrected VAT application according to customer's country
+
+***** ChangeLog for 4.0.1 compared to 4.0 *****
+Fix: Bug when no products
+Fix: Error when sql_mode=only_full_group_by
+Fix: Warning declaration for PHP 7.0
+
+***** ChangeLog for 4.0 compared to 3.9.5 *****
+Fix: Compatibility Dolibarr 4.0
+New: Compatibility PHP 7.0
+
+***** ChangeLog for 3.9.5 compared to 3.9.4 *****
+Fix: Bug on closecash list
+
+***** ChangeLog for 3.9.4 compared to 3.9.3 *****
+Fix: User can only connect to one terminal
+Fix: Disconnect user when terminal is liberated
+Fix: Bug when change user on frontend
+Fix: Bug when creating close cash
+Fix: Use decimals defined on Dolibarr
+Fix: Sales without stock according Dolibarr
+
+***** ChangeLog for 3.9.3 compared to 3.9.2 *****
+Fix: Check the user's permissions to access the frontend from the main login
+Fix: Check IdProf when create thirds and invoices
+
+***** ChangeLog for 3.9.2 compared to 3.9.1 *****
+Fix: Bug when showing images
+Fix: Bug not restoring all prices when restore ticket
+
+***** ChangeLog for 3.9.1 compared to 3.9 *****
+Fix: Bug when print ticket if place is used
+Fix: Bug when discount customer
+
+***** ChangeLog for 3.9 compared to 3.8.4 *****
+Fix: Bug restore ticket if product is edited
+
+***** ChangeLog for 3.8.4 compared to 3.8.3 *****
+Fix: Not possible to create products
+Fix: Bug on listecloses filter
+
+***** ChangeLog for 3.8.3 compared to 3.8.2 *****
+Fix: Bug on closecash list
+
+***** ChangeLog for 3.8.2 compared to 3.8.1 *****
+Fix: Bug with customer prices
+
+***** ChangeLog for 3.8.1 compared to 3.8 *****
+Fix: Bug on closecash
+
+***** ChangeLog for 3.8 compared to 3.7.2 *****
+New: Compatibility with new commercial discount of 2Promo module
+New: Compatibility with Dolibarr 3.8
+
+***** ChangeLog for 3.7.3 compared to 3.7.2 *****
+Fix: Not showing accountancy codes on sales journal
+Fix: Improve calculePrice
+
+***** ChangeLog for 3.7.2 compared to 3.7.1 *****
+Fix: Dolibarr 3.7 compatibility
+Fix: Bug on services stock
+Fix: Bug on multiprice
+Fix: Bug using discounts
+
+***** ChangeLog for 3.7.1 compared to 3.7 *****
+Fix: Bug on mobile view with https
+Fix: Bug compatibility with 2Promo
+Fix: Bug using discounts
+
+***** ChangeLog for 3.7 compared to 3.6.4 *****
+New: Send pdf invoices by email
+New: Show ticket's note on print ticket
+New: Option to show prices with or without taxes
+New: Only show discounts if at least one discount
+New: Close cash from backend
+New: User rights on each terminal
+New: Series by terminal or warehouse
+
+***** ChangeLog for 3.6.4 compared to 3.6.3 *****
+Fix: Sales without stock
+
+***** ChangeLog for 3.6.3 compared to 3.6.2 *****
+Fix: JZebra print
+Fix: SQL search with specials characters
+Fix: Compatibility in 'htdocs' folder
+
+***** ChangeLog for 3.6.2 compared to 3.6.1 *****
+Fix: Fullscreen Chrome bug
+
+***** ChangeLog for 3.6.1 compared to 3.6 *****
+Fix: Bug in module configuration
+Fix: Bug in thirds creation
+
+***** ChangeLog for 3.6 compared to 3.5.6 *****
+New: Show ticket reference when recover it
+New: Add company phone on printed ticket
+New: Most selled products repport
+New: Possibility to convert devolution on a discount
+New: Include Jzebra print
+New: Improve printed ticket
+New: Pay a purchase with two payment methods
+New: Option to automatically close window print ticket
+New: Add the price on the drop down product search
+New: At least one character to search products or customers
+New: Add town field when create customer
+New: Tickets available through hidden option
+New: Access POS by logging only once
+New: Show cashback on bills
+
+***** ChangeLog for 3.5.6 compared to 3.5.5 *****
+New: Compatibility with multicompany
+
+***** ChangeLog for 3.5.5 compared to 3.5.4 *****
+Fix: Bug paybank extra closecash
+Fix: DB compatibility
+
+***** ChangeLog for 3.5.4 compared to 3.5.3 *****
+Fix: Bug when searching products when sell services activated
+Fix: Bug save terminal on ticket
+
+***** ChangeLog for 3.5.3 compared to 3.5.2 *****
+Fix: Bug when session expired
+Fix: Bug showing product label on ticket
+
+***** ChangeLog for 3.5.2 compared to 3.5.1 *****
+Fix: Ticket lines not show on backend
+
+***** ChangeLog for 3.5.1 compared to 3.5 *****
+FiX: Bug in discount draft tickets
+
+***** ChangeLog for 3.5 compared to 3.4.3 *****
+New: Mobile addon included
+New: Better format on ticket
+New: No compatibility with multicompany
+New: Possibility to show inverted price
+
+***** ChangeLog for 3.4.3 compared to 3.4.2 *****
+Fix: Select company with type client 1 or 3
+Fix: Lost fields values into reload
+Fix: Payment fields empty by default
+Fix: Show ref of warehouse instead lieu
+Fix: Replace img cashdesk with img barcode 
+
+***** ChangeLog for 3.4.2 compared to 3.4.1 *****
+Fix: Bug in facture numeration with company type
+
+***** ChangeLog for 3.4.1 compared to 3.4 *****
+Fix: Ticket format
+Fix: Bug when cash import is zero
+Fix: Bug in returned products without stock
+Fix: Bug showing products in category
+
+***** ChangeLog for 3.4 compared to 3.3.7 *****
+New: Add an extra bank payment mode
+New: Added VAT breakdown
+New: Close cash numbering module
+New: Chat on frontend
+New: User change with password
+New: Improve mobile detect
+New: Change twitter frontend
+
+***** ChangeLog for 3.3.7 compared to 3.3.6 *****
+Fix: Error when print closecash
+Fix: Access to frontend in new tab
+Fix: Improve transalations
+New: Add free text on tickets
+
+***** ChangeLog for 3.3.6 compared to 3.3.5 *****
+Fix: Not shown date in factures
+Fix: Bug when not show products without stock
+
+***** ChangeLog for 3.3.5 compared to 3.3.4 *****
+Fix: Bug when create customer from frontend
+Fix: Bug when create product from frontend
+
+***** ChangeLog for 3.3.4 compared to 3.3.3 *****
+Fix: Bug in tactil mode
+Fix: Bug in 'more' button on frontend
+Fix: Bug in module configuration
+
+***** ChangeLog for 3.3.3 compared to 3.3.2 *****
+Fix: Bug with multycompany compatibility
+Fix: Bug in frontend products tab
+Fix: Translation correction
+New: Optional Help Tab
+
+***** ChangeLog for 3.3.2 compared to 3.3.1 *****
+Fix: Bug with multycompany compatibility
+
+***** ChangeLog for 3.3.1 compared to 3.3 *****
+Fix: Warning on frontend login
+New: Catalan translation
+Fix: Bug on Credit Note
+
+***** ChangeLog for 3.3 compared to 3.2.8 *****
+New: Graphic design improvements
+New: Integration with 2Rewards
+New: Compatibility with Multientity module
+New: More reports on backend
+New: Customers discount on frontend
+New: POS works with multiprice
+New: Tickets can be classified to Cancelled
+New: Gift ticket
+New: Fullscreen button on frontend
+New: Possibility to print and send by email tickets on frontend
+New: Close cash rights
+New: Ticket and ticket line's notes
+New: Draft ticket can be deleted
+New: Places
+New: Product's price can be changed on frontend
+New: Can see stock of all warehouses on frontend
+New: Possibility to sell or not products without stock
+
+***** ChangeLog for 3.2.8 compared to 3.2.7 *****
+Fix: Bug in terminal statics
+
+***** ChangeLog for 3.2.7 compared to 3.2.6 *****
+Fix: Bug in facsim numeration
+
+***** ChangeLog for 3.2.6 compared to 3.2.5 *****
+Fix: Bug on products with negative price
+Fix: Bug on POS reports
+New: Adapt to new european directive about simplified invoices
+
+***** ChangeLog for 3.2.5 compared to 3.2.4 *****
+Fix: Bug printing close cash
+Fix: Customer creations's bug from frontend
+Fix: Security improvements
+Fix: Save ticket bug
+Fix: Return to backend when pos not's in custom
+Fix: Select employees on frontend
+Fix: Logout terminal bug
+Fix: Pagination closecash bug
+Fix: Include bug
+
+***** ChangeLog for 3.2.4 compared to 3.2.3 *****
+New: Help link
+New: Readme
+Fix: Discount bug
+Fix: Frontend's security
+
+***** ChangeLog for 3.2.3 compared to 3.2.2 *****
+Fix: Not possible to sell under min price.
+Fix: Ticket payment must be a modal window.
+
+***** ChangeLog for 3.2.2 compared to 3.2.1 *****
+Fix: Works if no use custom directory
+Fix: Sales journal works with Dolibarr 3.3
+Fix: Graph compatibility
+
+***** ChangeLog for 3.2.1 compared to 3.2 *****
+Fix: Bad link
+
+***** ChangeLog for 3.2 compared to 3.1.1 *****
+New: Compatibility with Dolibarr 3.2
+
+***** ChangeLog for 3.1.1 compared to 3.1*****
+Fix: Show subcategories in Frontend
+Fix: Add scrollbars in customers tab in Frontend
+Fix: Draft ticket no payable or printable

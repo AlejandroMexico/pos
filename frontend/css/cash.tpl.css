@@ -1,0 +1,70 @@
+body {
+		font-size: 14px;
+		position: relative;
+		font-family: monospace,courier,arial,helvetica,system;
+		margin-right: 35px;
+    	margin-left: 10px;
+	}
+
+	.entete {
+/* 		position: relative; */
+	}
+
+		.adresse {
+/* 			float: left; */
+			font-size: 12px;
+		}
+
+		.date_heure {
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 15px;
+		}
+
+		.infos {
+			position: relative;
+			font-size: 14px;
+		}
+
+
+	.liste_articles {
+		width: 100%;
+		border-bottom: 1px solid #000;
+		text-align: center;
+		font-size: 14px;
+	}
+
+		.liste_articles tr.titres th {
+			border-bottom: 1px solid #000;
+			font-size: 14px;
+		
+	}		
+		.liste_articles td.total {
+			text-align: right;
+			font-size: 14px;
+		}
+
+	.totaux {
+		margin-top: 11px;
+		width: 30%;
+		float: right;
+		text-align: right;
+		font-size: 14px;
+	}
+
+	.lien {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+		font-size: 14px;
+	}
+
+	@media print {
+
+		.lien {
+			display: none;
+		}
+
+	}
